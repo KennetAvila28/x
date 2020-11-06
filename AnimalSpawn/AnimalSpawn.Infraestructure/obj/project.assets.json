@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "AutoMapper/10.0.0": {
+      "AutoMapper/10.1.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -15,10 +15,10 @@
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
-      "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.1": {
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/8.1.0": {
         "type": "package",
         "dependencies": {
-          "AutoMapper": "[10.0.0, 11.0.0)",
+          "AutoMapper": "[10.1.0, 11.0.0)",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
           "Microsoft.Extensions.Options": "3.0.0"
         },
@@ -65,6 +65,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
+      "LinqKit.Core/1.1.20": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/LinqKit.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/LinqKit.Core.dll": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -1567,14 +1576,14 @@
     }
   },
   "libraries": {
-    "AutoMapper/10.0.0": {
-      "sha512": "T09NoqMZBqw0/JEauXulxnmmerl0Zj03e0r6VCcJ0LURWBIaYxZPPoiDv8bHf5Y4x2xcXJp4JPXoCaeOMJfHEA==",
+    "AutoMapper/10.1.0": {
+      "sha512": "qxn9+PpQJD53PAUHGXW3HTcq6Rxbv3Pyq/jTcc60ZYwOygyqUfHIY3HBChKbDwtTHdlwlQqJeJ1ckVcaoytxxw==",
       "type": "package",
-      "path": "automapper/10.0.0",
+      "path": "automapper/10.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "automapper.10.0.0.nupkg.sha512",
+        "automapper.10.1.0.nupkg.sha512",
         "automapper.nuspec",
         "icon.png",
         "lib/net461/AutoMapper.dll",
@@ -1583,14 +1592,14 @@
         "lib/netstandard2.0/AutoMapper.xml"
       ]
     },
-    "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.1": {
-      "sha512": "hhUzmc8Ld7wCuVHJFodsxtPmFqBAhB6nUNQUgaMF3uamQdxOLxntG0dwv+5ApC67GABa8Oay8MEYGg5IgVZP1Q==",
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/8.1.0": {
+      "sha512": "dQyGCAYcHbGuimVvCMu4Ea2S1oYOlgO9XfVdClmY5wgygJMZoS57emPzH0qNfknmtzMm4QbDO9i237W5IDjU1A==",
       "type": "package",
-      "path": "automapper.extensions.microsoft.dependencyinjection/8.0.1",
+      "path": "automapper.extensions.microsoft.dependencyinjection/8.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "icon.png",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
@@ -1637,6 +1646,36 @@
         "fluentvalidation.dependencyinjectionextensions.nuspec",
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "LinqKit.Core/1.1.20": {
+      "sha512": "U0Naq5NSzUB/9zawa7T6pkp0miPFCJpHD4lcJccuaTlxmR0aPvT8Gd+YfCvJHPSQFhpvqNUuh8TI4CiaaaXReQ==",
+      "type": "package",
+      "path": "linqkit.core/1.1.20",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/LinqKit.Core.dll",
+        "lib/net35/LinqKit.Core.xml",
+        "lib/net40/LinqKit.Core.dll",
+        "lib/net40/LinqKit.Core.xml",
+        "lib/net45/LinqKit.Core.dll",
+        "lib/net45/LinqKit.Core.xml",
+        "lib/netstandard1.3/LinqKit.Core.dll",
+        "lib/netstandard1.3/LinqKit.Core.xml",
+        "lib/netstandard2.0/LinqKit.Core.dll",
+        "lib/netstandard2.0/LinqKit.Core.xml",
+        "lib/netstandard2.1/LinqKit.Core.dll",
+        "lib/netstandard2.1/LinqKit.Core.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/LinqKit.Core.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/LinqKit.Core.xml",
+        "lib/portable-net45+win8+wp8+wpa81/LinqKit.Core.dll",
+        "lib/portable-net45+win8+wp8+wpa81/LinqKit.Core.xml",
+        "lib/uap10.0/LinqKit.Core.dll",
+        "lib/uap10.0/LinqKit.Core.pri",
+        "lib/uap10.0/LinqKit.Core.xml",
+        "linqkit.core.1.1.20.nupkg.sha512",
+        "linqkit.core.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -5879,8 +5918,9 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AnimalSpawn.Domain >= 1.0.0",
-      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.0.1",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.0",
       "FluentValidation.AspNetCore >= 9.2.0",
+      "LinqKit.Core >= 1.1.20",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.8",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.8"
     ]
@@ -5892,11 +5932,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj",
+      "projectUniqueName": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj",
       "projectName": "AnimalSpawn.Infraestructure",
-      "projectPath": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj",
+      "projectPath": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj",
       "packagesPath": "C:\\Users\\nidia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Infraestructure\\obj\\",
+      "outputPath": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5916,8 +5956,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
-              "projectPath": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj"
+            "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
+              "projectPath": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj"
             }
           }
         }
@@ -5933,11 +5973,15 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
-            "version": "[8.0.1, )"
+            "version": "[8.1.0, )"
           },
           "FluentValidation.AspNetCore": {
             "target": "Package",
             "version": "[9.2.0, )"
+          },
+          "LinqKit.Core": {
+            "target": "Package",
+            "version": "[1.1.20, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",

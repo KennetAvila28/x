@@ -1,18 +1,13 @@
 ﻿using AnimalSpawn.Domain.Entities;
+using AnimalSpawn.Domain.QueryFilters;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace AnimalSpawn.Domain.Interfaces
 {
-    public interface IAnimalRepository
+    public interface IAnimalRepository : IRespository<Animal>
     {
-        Task<IEnumerable<Animal>> GetAnimals();
-        Task<Animal> GetAnimal(int id);
-        Task AddAnimal(Animal animal);
-        Task<bool> UpdateAnimal(Animal animal);
-        Task<bool> DeleteAnimal(int id);
-
+        IEnumerable<Animal> GetAnimals(AnimalQueryFilter filter);
     }
 }

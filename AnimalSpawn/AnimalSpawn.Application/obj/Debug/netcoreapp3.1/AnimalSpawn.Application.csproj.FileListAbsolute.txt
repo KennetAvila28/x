@@ -1,0 +1,12 @@
+C:\git-proyecto\4A.NMAC.Practica\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Application.deps.json
+C:\git-proyecto\4A.NMAC.Practica\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Application.dll
+C:\git-proyecto\4A.NMAC.Practica\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.dll
+C:\git-proyecto\4A.NMAC.Practica\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.pdb
+C:\git-proyecto\4A.NMAC.Practica\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.csprojAssemblyReference.cache
+C:\git-proyecto\4A.NMAC.Practica\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.AssemblyInfoInputs.cache
+C:\git-proyecto\4A.NMAC.Practica\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.AssemblyInfo.cs
+C:\git-proyecto\4A.NMAC.Practica\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.csproj.CopyComplete
+C:\git-proyecto\4A.NMAC.Practica\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Application.pdb
+C:\git-proyecto\4A.NMAC.Practica\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.csproj.CoreCompileInputs.cache
+C:\git-proyecto\4A.NMAC.Practica\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.dll
+C:\git-proyecto\4A.NMAC.Practica\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.pdb

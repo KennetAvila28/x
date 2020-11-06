@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_1"
     ],
-    "languageVersion": "",
+    "languageVersion": "8.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -24,9 +24,10 @@
     ".NETCoreApp,Version=v3.1": {
       "AnimalSpawn.Api/1.0.0": {
         "dependencies": {
+          "AnimalSpawn.Application": "1.0.0",
           "AnimalSpawn.Domain": "1.0.0",
           "AnimalSpawn.Infraestructure": "1.0.0",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
           "Microsoft.EntityFrameworkCore.Design": "3.1.8",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -305,7 +306,7 @@
           "AnimalSpawn.Api.dll": {}
         }
       },
-      "AutoMapper/10.0.0": {
+      "AutoMapper/10.1.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "System.Reflection.Emit": "4.7.0"
@@ -313,23 +314,23 @@
         "runtime": {
           "lib/netstandard2.0/AutoMapper.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.0.0"
+            "fileVersion": "10.1.0.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
-      "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.1": {
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/8.1.0": {
         "dependencies": {
-          "AutoMapper": "10.0.0",
+          "AutoMapper": "10.1.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
           "Microsoft.Extensions.Options": "3.1.8"
         },
         "runtime": {
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1.0"
+            "fileVersion": "8.1.0.0"
           }
         },
         "compile": {
@@ -375,6 +376,17 @@
         },
         "compile": {
           "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
+      "LinqKit.Core/1.1.20": {
+        "runtime": {
+          "lib/netstandard2.1/LinqKit.Core.dll": {
+            "assemblyVersion": "1.1.20.0",
+            "fileVersion": "1.1.20.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/LinqKit.Core.dll": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -1460,6 +1472,18 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "AnimalSpawn.Application/1.0.0": {
+        "dependencies": {
+          "AnimalSpawn.Domain": "1.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0"
+        },
+        "runtime": {
+          "AnimalSpawn.Application.dll": {}
+        },
+        "compile": {
+          "AnimalSpawn.Application.dll": {}
+        }
+      },
       "AnimalSpawn.Domain/1.0.0": {
         "runtime": {
           "AnimalSpawn.Domain.dll": {}
@@ -1471,8 +1495,9 @@
       "AnimalSpawn.Infraestructure/1.0.0": {
         "dependencies": {
           "AnimalSpawn.Domain": "1.0.0",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
           "FluentValidation.AspNetCore": "9.2.0",
+          "LinqKit.Core": "1.1.20",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8"
         },
         "runtime": {
@@ -3104,19 +3129,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AutoMapper/10.0.0": {
+    "AutoMapper/10.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-T09NoqMZBqw0/JEauXulxnmmerl0Zj03e0r6VCcJ0LURWBIaYxZPPoiDv8bHf5Y4x2xcXJp4JPXoCaeOMJfHEA==",
-      "path": "automapper/10.0.0",
-      "hashPath": "automapper.10.0.0.nupkg.sha512"
+      "sha512": "sha512-qxn9+PpQJD53PAUHGXW3HTcq6Rxbv3Pyq/jTcc60ZYwOygyqUfHIY3HBChKbDwtTHdlwlQqJeJ1ckVcaoytxxw==",
+      "path": "automapper/10.1.0",
+      "hashPath": "automapper.10.1.0.nupkg.sha512"
     },
-    "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.1": {
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/8.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hhUzmc8Ld7wCuVHJFodsxtPmFqBAhB6nUNQUgaMF3uamQdxOLxntG0dwv+5ApC67GABa8Oay8MEYGg5IgVZP1Q==",
-      "path": "automapper.extensions.microsoft.dependencyinjection/8.0.1",
-      "hashPath": "automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512"
+      "sha512": "sha512-dQyGCAYcHbGuimVvCMu4Ea2S1oYOlgO9XfVdClmY5wgygJMZoS57emPzH0qNfknmtzMm4QbDO9i237W5IDjU1A==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/8.1.0",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512"
     },
     "FluentValidation/9.2.0": {
       "type": "package",
@@ -3138,6 +3163,13 @@
       "sha512": "sha512-NZWi2FIRsD/R6JOngv2faT9I8BfKR3hRfxY8DoRUjBkOM6X2LMfmYnTNg/NFjKc8w3bKhVj7n7CxvApTKXetwQ==",
       "path": "fluentvalidation.dependencyinjectionextensions/9.2.0",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512"
+    },
+    "LinqKit.Core/1.1.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U0Naq5NSzUB/9zawa7T6pkp0miPFCJpHD4lcJccuaTlxmR0aPvT8Gd+YfCvJHPSQFhpvqNUuh8TI4CiaaaXReQ==",
+      "path": "linqkit.core/1.1.20",
+      "hashPath": "linqkit.core.1.1.20.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -3831,6 +3863,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "AnimalSpawn.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "AnimalSpawn.Domain/1.0.0": {
       "type": "project",

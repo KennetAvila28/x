@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {}
+    "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
+    "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
+        "projectUniqueName": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
         "projectName": "AnimalSpawn.Domain",
-        "projectPath": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
+        "projectPath": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
         "packagesPath": "C:\\Users\\nidia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Domain\\obj\\",
+        "outputPath": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

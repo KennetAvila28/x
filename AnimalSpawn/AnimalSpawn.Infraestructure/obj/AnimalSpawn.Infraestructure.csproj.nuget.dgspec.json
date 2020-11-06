@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj": {}
+    "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
+    "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
+        "projectUniqueName": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
         "projectName": "AnimalSpawn.Domain",
-        "projectPath": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
+        "projectPath": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
         "packagesPath": "C:\\Users\\nidia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Domain\\obj\\",
+        "outputPath": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj": {
+    "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj",
+        "projectUniqueName": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj",
         "projectName": "AnimalSpawn.Infraestructure",
-        "projectPath": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj",
+        "projectPath": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\nidia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Infraestructure\\obj\\",
+        "outputPath": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -87,8 +87,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
-                "projectPath": "C:\\Users\\nidia\\OneDrive\\Escritorio\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj"
+              "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
+                "projectPath": "C:\\git-proyecto\\4A.NMAC.Practica\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj"
               }
             }
           }
@@ -104,11 +104,15 @@
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.1.0, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[9.2.0, )"
+            },
+            "LinqKit.Core": {
+              "target": "Package",
+              "version": "[1.1.20, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

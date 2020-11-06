@@ -8,10 +8,7 @@ namespace AnimalSpawn.Infraestructure.Data
 {
     public partial class AnimalSpawnContext : DbContext
     {
-        public AnimalSpawnContext()
-        {
-        }
-
+        
         public AnimalSpawnContext(DbContextOptions<AnimalSpawnContext> options)
             : base(options)
         {
